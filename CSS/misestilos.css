@@ -1,0 +1,103 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	font: bold 20px verdana, sans-serif;
+}
+h2{
+	font: bold 14px verdana, sans-serif;
+}
+header,section,footer,aside,nav,article,figure,figcaption,hgroup{
+	display: block;
+}
+body{
+	text-align: center;
+}
+#agrupar{
+	width: 960px;
+	margin: 15px auto;
+	text-align: left;
+	
+}
+#cabecera{
+	background: #FFFBB9;
+	border: 1px solid #999999;
+	padding: 20px;
+	
+}
+#titulo{
+	font: bold 14px Caifanes, sans-serif;
+}
+#menu{
+	background: #CCCCCC;
+	padding: 5px 15px;
+	-moz-border-radius: 20px 10px 30px 50px; 
+	-webkit-border-radius: 20px 10px 30px 50px;
+	border-radius: 20px 10px 30px 50px;
+	-moz-box-shadow: rgb(150,150,150) 5px 5px; 
+	-webkit-box-shadow: rgb(150,150,150) 5px 5px; 
+	box-shadow: rgb(150,150,150) 5px 5px;
+	
+}
+#menu li{
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font: bold 14px verdana, sans-serif;
+	text-shadow: rgb(150,150,150) 3px 3px 5px;
+}
+#seccion{
+	float: left;
+	width: 660px;
+	margin: 20px;
+	background: -webkit-linear-gradient(top, #FFFFFF, #006699);
+	background: -moz-linear-gradient(top, #FFFFFF, #006699);
+	-moz-transition: -moz-transform 1s ease-in-out 0.5s;
+-webkit-transition: -webkit-transform 1s ease-in-out 0.5s;
+}
+#columna{
+	float: left;
+	width: 220px;
+	margin: 20px 0px;
+	padding: 20px;
+	background: #CCCCCC;
+}
+#pie{
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid #999999;
+}
+article{
+	background: #FFFBCC;
+	border: 1px solid #999999;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+article footer{
+	text-align: right;
+}
+time{
+	color: #999999;
+}
+figcaption{
+	font: italic 14px verdana, sans-serif;
+}
+div{
+	width: 100px;
+	margin: 20px;
+	padding: 10px;
+	border: 1px solid #000000;
+	
+}
+figure img{
+	width: 600px;
+}
+@font-face{
+	font-family: 'Caifanes';
+	src: url('/Users/fernandocastaneda/Dropbox/Curso_Divertido_HTML5/FONT/jaguares_1.ttf');
+}
+video{
+	width: 600px;
+}
